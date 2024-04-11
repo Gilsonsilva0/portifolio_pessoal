@@ -319,7 +319,7 @@ h4 {
 .cursos-texto {
     /* conteúdo do grid (logo e nome) + (informação complementar)*/
     flex-direction: column;
-    max-height: 190px;
+    max-height: auto;
     justify-content: space-between;
     border: 1px solid rgba(118, 117, 117, 0.718);
     border-radius: 10px;
