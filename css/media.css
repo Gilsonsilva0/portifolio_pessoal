@@ -3,7 +3,6 @@
 
     .flex{
         flex-direction: column;
-
     }
     section, .sobre{
         max-width: 90%;
@@ -25,12 +24,14 @@
     }
     .experiencias-box{
         width: 90%;
+        padding: 5px 15px;
         align-self: center;
         margin-top: 0;
     }
     #experiencias{
         padding-bottom: 20px;
     }
+    
     .area-habilidades{
         flex-direction: row;
         flex-wrap: wrap;
@@ -49,7 +50,6 @@
     .img-cursos{
         display: flex;
         justify-content: space-between;
-        height: 110px;
     }
     .nome{
         flex: 1.5;

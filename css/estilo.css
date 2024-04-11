@@ -319,7 +319,7 @@ h4 {
 .cursos-texto {
     /* conteúdo do grid (logo e nome) + (informação complementar)*/
     flex-direction: column;
-    max-height: auto;
+    height: auto;
     justify-content: space-between;
     border: 1px solid rgba(118, 117, 117, 0.718);
     border-radius: 10px;
@@ -332,7 +332,7 @@ h4 {
 
 .img-cursos {
     display: flex;
-    height: 100px;
+    height: 110px;
     justify-content: space-between;
 }
 
@@ -354,7 +354,7 @@ h4 {
 .info p {
     font-size: 15px;
     padding: 0 5px;
-    height: 80px;
+    
 }
 
 /* -----------------PROJETOS----------------------- */
