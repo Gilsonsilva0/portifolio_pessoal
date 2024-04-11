@@ -1,0 +1,73 @@
+@media screen and (max-width: 1000px) {
+
+
+    .flex{
+        flex-direction: column;
+
+    }
+    section, .sobre{
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    #imagem-perfil, #texto-sobre{
+        width: 100%;
+    }
+    #imagem-perfil img{
+        margin: 15px 0;
+    }
+    .centralizar{
+        max-width: 90%;
+    }
+    nav,
+    .btn-contato {
+        display: none;
+    }
+    .experiencias-box{
+        width: 90%;
+        align-self: center;
+        margin-top: 0;
+    }
+    #experiencias{
+        padding-bottom: 20px;
+    }
+    .area-habilidades{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    .texto-habilidades{
+        display: none;
+    }
+    .area-cursos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
+    }
+    .img-cursos{
+        display: flex;
+        justify-content: space-between;
+        height: 110px;
+    }
+    .nome{
+        flex: 1.5;
+    }
+    .nome h3{
+        font-size: 18px;
+        padding-left: 2px;
+    }
+    .card-columns {
+        column-count: 1;
+        width: 90%;
+        margin: auto;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .redes-sociais{
+        flex-direction: row;
+    }
+
+}
