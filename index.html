@@ -301,7 +301,7 @@
 
             <div class="card card-color">
 
-                <img src="imagens/calculadora.png" alt="" class="card-img">
+                <a href="https://gilsonsilva0.github.io/calculadora/" target="_blank"><img src="imagens/calculadora.png" alt="" class="card-img"></a>
 
                 <div class="card-body">
                     <h4 class="card-title">Calculadora</h4>
@@ -362,15 +362,19 @@
 
             <div class="formulario">
                 <h4>Entre em contato comigo</h4>
-                <form class="flex" action="/enviar" method="post">
+                <form class="flex" action="https://api.staticforms.xyz/submit" method="post">
 
-                    <input type="text" name="nome" id="nome" placeholder="Nome:" required>
+                    <input type="text" name="name" id="name" placeholder="Nome:" required>
 
                     <input type="email" name="email" id="email" placeholder="Email:" required>
 
-                    <textarea name="mensagem" id="mensagem" placeholder="Digite aqui a sua mensagem" required></textarea>
+                    <textarea name="message" id="message" placeholder="Digite aqui a sua mensagem" required></textarea>
 
                     <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="468e2069-3c32-490e-b93a-e251b7377f12">
+                    <input type="hidden" name="replyTo" value="@">
+                    <input type="hidden" name="redirectTo" value="https://gilsonsilva0.github.io/portifolio_pessoal/obrigado.html">
 
                 </form>
 
@@ -394,6 +398,10 @@
         </div>
 
     </section>
+
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
 
 
 
